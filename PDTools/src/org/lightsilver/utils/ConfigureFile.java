@@ -22,8 +22,8 @@ age = 16
 </pre>
 </blockquote>
  * 
- * @author wengkai
- * @version 1.0
+ * @author lightsilver
+ * @version 1.1
  *
  */
 public class ConfigureFile {
@@ -143,6 +143,9 @@ public class ConfigureFile {
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
+		ConfigureFile config = new ConfigureFile("config.ini");
+		config.read();
+		System.out.println(config.toString());
 	}
 
 }
