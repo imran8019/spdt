@@ -1,6 +1,10 @@
 package org.lightsilver.utils;
 import org.w3c.dom.*;
-import org.apache.xerces.parsers.DOMParser;
+import org.dom4j.Document;
+import org.dom4j.DocumentHelper;
+import org.dom4j.Element;
+
+//import org.apache.xerces.parsers.DOMParser;
 
 public class XMLParser {
 

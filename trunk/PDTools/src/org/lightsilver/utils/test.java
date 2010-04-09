@@ -16,7 +16,7 @@ public class test {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		test t = new test();
-		System.out.println(t.gogo(12));
+		System.out.println(123);//t.gogo(12));
 	}
 
 	public void removeMulLines(ArrayList<Integer> removal, ArrayList<Integer> Ori)
