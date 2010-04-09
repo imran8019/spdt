@@ -60,7 +60,7 @@ public class Preparation {
 		//}
 	}
 	
-	Preparation() throws IOException
+	public Preparation() throws IOException
 	{
 		config.read();
 		startFile();
